@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+background:black;
+}
+
+.image img{
+    width: 600px;
+    height: 600px;
+    border-radius: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    filter: drop-shadow(4px 4px 20px  lightblue);
+    background-color:white;
+  
+    
+}
+
+
+    
+
+
+.image{
+    border-radius: 50%;
+    padding: 0;
+}
+
+.center{
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background:black;
+    position: fixed;
+    top: 50%;
+left: 48.50%;
+z-index: 1;
+}
+
+
+/* niddle */
+
+.niddle{
+    width: 5px;
+  
+    border: 4px solid black;
+    position: relative;; 
+    top: 30%;
+    left: 50%;
+transform-origin: bottom;
+box-shadow: 1px 1px 10px #fff;
+
+}
+
+
+#hour{
+
+    border: 6px solid red;
+    height: 130px;
+    
+    position: absolute; 
+    top: 31%;
+    left: 50%;
+}
+
+#munite{
+    height: 140px;
+    border: 4px solid black;
+    width: 4px;
+    position: absolute; 
+    top: 30%;
+    left: 50%;
+}
+
+#second{
+    height: 160px !important;
+
+    border: 4px solid yellow;
+    position: absolute; 
+    top: 28%;
+    left: 50%;
+    
+    
+}
+.container1{
+ width: 55vh;
+    /* background-color: #000; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+position: absolute;
+left: 2%;
+top:3%;
+}
+
+#btn{
+    width: 6rem;
+    height: 3rem;
+    outline: none;
+    border: none;
+    /* border-radius:1rem; */
+    color: white;
+    background-color: #0000ff;
+}
+
+.input1{
+   width: 0rem;
+   height: 3rem;
+   border: none;
+   outline: none;
+   /* border-radius: 1rem; */
+   background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.4s;
+box-shadow: 1px 1px 10px #fff ,
+-1px -1px 10px #fff;
+
+}
+
+.input3{
+   width: 0rem;
+   height: 3rem;
+   border: none;
+   outline: none;
+   /* border-radius: 1rem; */
+   background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.4s;
+box-shadow: 1px 1px 10px #fff ,
+-1px -1px 10px #fff;
+}
+
+span{
+   width: 100%;
+   height: 100%;
+position: relative;
+top: 25%;
+left: 25%;
+transition:  all 0.5;
+display: none;
+font-size: 1.3rem;
+color: red;
+font-weight: 900;
+text-shadow: .2px .5px 3px white;
+}
+
+
+/* buttonworky */
